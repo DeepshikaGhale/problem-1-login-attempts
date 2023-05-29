@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{634C6A98-A6DD-4F85-B81B-A41BD7D03551}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.52034ea940721421" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LoginAttempts PreferredExecutionTarget="Android.52034ea940721421" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoginAttempts/MainPage.xaml.cs">
+    <Files>
+      <File FileName="LoginAttempts/MainPage.xaml.cs" Line="9" Column="1" />
+      <File FileName="LoginAttempts/MainPage.xaml" Line="64" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LoginAttempts" expanded="True">
+            <Node name="LoginAttempts" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

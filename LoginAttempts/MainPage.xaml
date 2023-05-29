@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginAttempts.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+           <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="resultMsg"
+                Text="Welcome!"
+                IsVisible="False"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Enter Password"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                HorizontalOptions="Center" />
+
+            <!-- input field for entering password -->
+            <Frame
+                BorderColor="Black"
+                >
+                <Entry
+                x:Name="entry"
+                Placeholder="Enter password"
+                IsPassword="True"
+                MaxLength="10"
+                CharacterSpacing="2"
+                FontSize="16"
+                ReturnType="Done"
+                Completed="OnCompleted"
+                />
+                </Frame>
+
+            <!-- shows error message -->
+            <Label
+                x:Name="errorMsg"
+                Text="Please enter a password."
+                IsVisible="False"
+                SemanticProperties.HeadingLevel="Level2"
+                TextColor="Red"
+                FontSize="12"
+                HorizontalOptions="Start" />
+
+            <!-- show attempts -->
+            <Label
+                x:Name="attempts"
+                Text="Attempts: 5/5"
+                SemanticProperties.HeadingLevel="Level2"
+                TextColor="Black"
+                FontSize="14"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="LoginBtn"
+                Text="Login"
+                SemanticProperties.Hint="Checks if the user given password matches the default password."
+                Clicked="OnLoginPressed"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
